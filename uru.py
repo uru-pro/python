@@ -280,9 +280,9 @@ class Stack:
   def push(self,item):
     self.stack.append(item)
   def pop(self):
-    return self.stack.pop() if self.stack else none
+    return self.stack.pop() if self.stack else None
   def peek(self):
-    return self.stack[-1] if self.stack else none
+    return self.stack[-1] if self.stack else None
   def is_empty(self):
     return len(self.stack)==0
 
